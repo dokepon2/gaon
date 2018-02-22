@@ -1,9 +1,5 @@
-Gaon Core staging tree 0.12.1
+Gaon Core
 ===============================
-
-`master:` [![Build Status](https://travis-ci.org/gaoncoin/gaon.svg?branch=master)](https://travis-ci.org/gaoncoin/gaon) `develop:` [![Build Status](https://travis-ci.org/gaoncoin/gaon.svg?branch=develop)](https://travis-ci.org/gaoncoin/gaon/branches)
-
-https://www.gaon.network
 
 
 What is Gaon?
