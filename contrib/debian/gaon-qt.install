@@ -1,0 +1,6 @@
+usr/local/bin/gaon-qt usr/bin
+share/pixmaps/gaon32.xpm usr/share/pixmaps
+share/pixmaps/gaon16.xpm usr/share/pixmaps
+share/pixmaps/gaon128.png usr/share/pixmaps
+debian/gaon-qt.desktop usr/share/applications
+debian/gaon-qt.protocol usr/share/kde4/services/

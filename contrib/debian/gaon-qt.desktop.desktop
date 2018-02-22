@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gaon
+Comment=Gaon P2P Cryptocurrency
+Exec=gaon-qt %u
+Terminal=false
+Type=Application
+Icon=gaon128
+MimeType=x-scheme-handler/gaon;
+Categories=Office;Finance;
+Name[en_US]=gaon-qt.desktop

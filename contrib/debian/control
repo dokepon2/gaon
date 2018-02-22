@@ -1,0 +1,68 @@
+Source: gaon
+Section: utils
+Priority: optional
+Maintainer: Holger Schinzel <holger@gaon.org>
+Uploaders: Holger Schinzel <holger@gaon.org>
+Build-Depends: debhelper,
+ devscripts,
+ automake,
+ libtool,
+ bash-completion,
+ libdb4.8++-dev,
+ libssl-dev,
+ pkg-config,
+ libevent-dev,
+ libboost-system1.48-dev | libboost-system-dev (>> 1.35),
+ libboost-filesystem1.48-dev | libboost-filesystem-dev (>> 1.35),
+ libboost-program-options1.48-dev | libboost-program-options-dev (>> 1.35),
+ libboost-thread1.48-dev | libboost-thread-dev (>> 1.35),
+ libboost-test1.48-dev | libboost-test-dev (>> 1.35),
+ libboost-chrono1.48-dev | libboost-chrono-dev (>> 1.35),
+ qt4-qmake,
+ libqt4-dev,
+ libqrencode-dev,
+ libprotobuf-dev, protobuf-compiler,
+ python
+Standards-Version: 3.9.2
+Homepage: https://www.gaon.org/
+Vcs-Git: git://github.com/gaoncoin/gaon.git
+Vcs-Browser: https://github.com/gaoncoin/gaon
+
+Package: gaond
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - daemon
+ Gaon is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Gaon uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Gaon Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides the daemon, gaond, and the CLI tool
+ gaon-cli to interact with the daemon.
+
+Package: gaon-qt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer network based digital currency - Qt GUI
+ Gaon is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Gaon uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Gaon Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides Gaon-Qt, a GUI for Gaon based on Qt.
+
+Package: gaon-tx
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: peer-to-peer digital currency - standalone transaction tool
+ Gaon is an experimental new digital currency that enables anonymous, instant
+ payments to anyone, anywhere in the world. Gaon uses peer-to-peer
+ technology to operate with no central authority: managing transactions
+ and issuing money are carried out collectively by the network. Gaon Core
+ is the name of the open source software which enables the use of this currency.
+ .
+ This package provides gaon-tx, a command-line transaction creation
+ tool which can be used without a gaon daemon.  Some means of
+ exchanging minimal transaction data with peers is still required.

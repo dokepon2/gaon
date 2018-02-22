@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[gobyte.qt-translation-012x]
+file_filter = src/qt/locale/gaon_<lang>.ts
+source_file = src/qt/locale/gaon_en.ts
+source_lang = en
